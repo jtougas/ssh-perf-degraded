@@ -1,0 +1,5 @@
+{
+    "name": "ssh-perf-degraded",
+    "context": "..",
+    "dockerFile": "../Dockerfile"
+}

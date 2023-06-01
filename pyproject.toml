@@ -1,0 +1,13 @@
+# cSpell: disable
+[tool.poetry]
+name = "ssh-perf-degraded"
+version = "0.1.0"
+description = ""
+authors = ["Jonathan Tougas <jtougas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+cryptography = "40.0.2"
+python = "~3.10"
+asyncssh = "2.13.1"
+
