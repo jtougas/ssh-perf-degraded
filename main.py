@@ -21,9 +21,7 @@ async def main():
     try:
         await asyncssh.connect(
             host="github.com",
-            port=22,
-            username="irrelavant",
-            password="foo",
+            port=22,            
             options=SSHClientConnectionOptions(
                 kex_algs="diffie-hellman-group-exchange-sha256",
                 known_hosts=None,
@@ -31,7 +29,6 @@ async def main():
         )
     except asyncssh.misc.PermissionDenied:
         pass
-
     root.info("Completed")
 
 asyncio.run(main())
