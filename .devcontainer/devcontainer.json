@@ -1,5 +1,13 @@
 {
     "name": "ssh-perf-degraded",
     "context": "..",
-    "dockerFile": "../Dockerfile"
+    "dockerFile": "../Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    }
 }
