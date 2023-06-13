@@ -2,7 +2,7 @@
 
 With `cryptography = "41.0.0"` += 500ms 
 ```
-sed -i 's/^cryptography.*$/cryptography = "41.0.0"/' ./pyproject.toml && \\
+sed -i 's/^cryptography.*$/cryptography = "41.0.0"/' ./pyproject.toml && \
 poetry lock && poetry install && \
 poetry run python main.py
 
